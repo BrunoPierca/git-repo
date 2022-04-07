@@ -13,55 +13,70 @@
     />
   </head>
   <body>
-    <h1>Git practice</h1>
-    <br />
-    <ul>
-      <h3>Basic Commands</h3>
-      <li>$ git init <span>Initiates a repository</span></li>
-      <li>
-        $ git add fileName <span>Adds a specific file to your repository</span>
-      </li>
-      <li>$ git status <span>Checks status of the work tree</span></li>
-      <li>$ git commit <span>Commits to local</span></li>
-      <li>$ git push <span>Pushes to remote repo</span></li>
-      <li>$ git pull <span>Pulls changes from remote to local repo</span></li>
-      <li>$ git clone <span>Clones a specific repository</span></li>
-    </ul>
+    <div class="bg-dark p-5 container-fluid">
+      <div class="mt-2 mb-2 rounded bg-primary container">
+        <h1>Git Commands</h1>
+        <br />
+        <ul>
+          <h3>Basic Commands</h3>
+          <li>$ git init <small>Initiates a repository</small></li>
+          <li>
+            $ git add fileName
+            <small>Adds a specific file to your repository</small>
+          </li>
+          <li>$ git status <small>Checks status of the work tree</small></li>
+          <li>$ git commit <small>Commits to local</small></li>
+          <li>
+            $ git push 'yourRemoteName' <small>Pushes to remote repo</small>
+          </li>
+          <li>
+            $ git pull <small>Pulls changes from remote to local repo</small>
+          </li>
+          <li>$ git clone <small>Clones a specific repository</small></li>
+        </ul>
 
-    <br />
+        <br />
 
-    <ul>
-      <h3>Other commands</h3>
-      <li>
-        $ git config --global user.name 'yourUsername'<span
-          >Configurates your Username</span
-        >
-      </li>
-      <li>
-        $ git config --global user.email 'yourEmail'
-        <span>Configurates your Email</span>
-      </li>
-      <li>
-        $ git rm --cached fileName <span>Deletes your file from the repo</span>
-      </li>
-      <li>
-        $ git add *.html <span>Adds all your .html files to the repo</span>
-      </li>
-      <li>$ git add . <span>Adds all your files to the repo</span></li>
+        <ul class="pb-3">
+          <h3>Other commands</h3>
+          <li>
+            $ git config --global user.name 'yourUsername'
+            <small>Configurates your Username</small>
+          </li>
+          <li>
+            $ git config --global user.email 'yourEmail'
+            <small>Configurates your Email</small>
+          </li>
+          <li>
+            $ git rm --cached fileName
+            <small>Deletes your file from the repo</small>
+          </li>
+          <li>
+            $ git add *.html
+            <small>Adds all your .html files to the repo</small>
+          </li>
+          <li>$ git add . <small>Adds all your files to the repo</small></li>
 
-      <li>
-        $ git commit-m 'Comment on the commit'
-        <span
-          >Speeds up the commit as you can comment right in the Git
-          console</span
-        >
-      </li>
-      <li>$ git touch <span>Creates a file, for example, .gitignore</span></li>
-      <li>
-        $ git checkout 'nameOfTheBranch' <span>Switch between branches</span>
-      </li>
-      <li>$ git merge 'branchName' <span>Merge branches</span></li>
-      <li>$ git remote add 'name' 'yourURL'</li>
-    </ul>
+          <li>
+            $ git commit-m 'Comment on the commit'
+            <small
+              >Speeds up the commit as you can comment right in the Git
+              console</small
+            >
+          </li>
+          <li>
+            $ git touch <small>Creates a file, for example, .gitignore</small>
+          </li>
+          <li>
+            $ git checkout 'nameOfTheBranch'
+            <small>Switch between branches</small>
+          </li>
+          <li>$ git merge 'branchName' <small>Merge branches</small></li>
+          <li>
+            $ git remote add 'name' 'yourURL' <small>Sets a remote repo</small>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
