@@ -5,16 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Git practice</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <h1>Git practice</h1>
     <br />
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <h3>Basic Commands</h3>
+      <li>$ git init <span>Initiates a repository</span></li>
+      <li>
+        $ git add fileName <span>Adds a specific file to your repository</span>
+      </li>
+      <li>$ git status <span>Checks status of the work tree</span></li>
+      <li>$ git commit <span>Commits to local</span></li>
+      <li>$ git push <span>Pushes to remote repo</span></li>
+      <li>$ git pull <span>Pulls changes from remote to local repo</span></li>
+      <li>$ git clone <span>Clones a specific repository</span></li>
+    </ul>
+
+    <br />
+
+    <ul>
+      <h3>Other commands</h3>
+      <li>
+        $ git config --global user.name 'yourUsername'<span
+          >Configurates your Username</span
+        >
+      </li>
+      <li>
+        $ git config --global user.email 'yourEmail'
+        <span>Configurates your Email</span>
+      </li>
+      <li>
+        $ git rm --cached fileName <span>Deletes your file from the repo</span>
+      </li>
+      <li>
+        $ git add *.html <span>Adds all your .html files to the repo</span>
+      </li>
+      <li>$ git add . <span>Adds all your files to the repo</span></li>
+
+      <li>
+        $ git commit-m 'Comment on the commit'
+        <span
+          >Speeds up the commit as you can comment right in the Git
+          console</span
+        >
+      </li>
+      <li>$ git touch <span>Creates a file, for example, .gitignore</span></li>
+      <li>
+        $ git checkout 'nameOfTheBranch' <span>Switch between branches</span>
+      </li>
+      <li>$ git merge 'branchName' <span>Merge branches</span></li>
+      <li>$ git remote add 'name' 'yourURL'</li>
     </ul>
   </body>
 </html>
